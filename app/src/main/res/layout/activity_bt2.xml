@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityBT2">
+    <TextView
+        android:id="@+id/title"
+        android:text="Thong tin ca nhan"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Ho ten : "
+        android:textSize="30dp"
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Cau lac bo yeu thich"
+        />
+    <CheckBox
+        android:id="@+id/pa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manchester United"
+        />
+    <CheckBox
+        android:id="@+id/pa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris saint Germain "
+        />
+    <CheckBox
+        android:id="@+id/pa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borussia DortMund"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Mau sac yeu thich"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:id="@+id/rdMYT"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rd1"
+            android:text="Do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rd2"
+            android:text="xanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rd3"
+            android:text="cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rd4"
+            android:text="vang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Que Quan"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sp1"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xuat thong tin"
+        />
+</LinearLayout>

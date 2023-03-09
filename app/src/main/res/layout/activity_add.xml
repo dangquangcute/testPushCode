@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvUsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginRight="120dp"
+            android:text="username"
+            />
+        <EditText
+            android:id="@+id/edtUsrName"
+            android:layout_width="300dp"
+            android:hint="input your usrName"
+            android:background="@color/white"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_marginRight="124dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="300dp"
+            android:background="@color/white"
+
+            android:hint="input your Address"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_marginRight="130dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="300dp"
+            android:background="@color/white"
+
+            android:hint="input your PhoneNum"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:text="them"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
